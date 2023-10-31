@@ -158,3 +158,43 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+
+
+## STUFF ADDED FROM ASKING GPT WHAT I SHOULD INCLUDE
+
+# Python-related ignores
+*.pyc
+*.pyo
+*.egg-info/
+__pycache__/
+*.egg
+*.venv
+*.virtualenv
+
+# Jupyter notebook-related ignores
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS-related ignores
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Visual Studio Code-related ignores
+.vscode/
+*.code-workspace
+
+# If you ever use virtualenv or similar tools, ignore virtual environment directories
+venv/
+env/
+
